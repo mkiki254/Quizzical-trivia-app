@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Karla;
+    src: url(fonts/Karla-VariableFont_wght.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+main{
+    width: 650px;
+    height: 650px;
+    background: #F5F7FB;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.start{
+    text-align: center;
+}
+
+.start--title{
+    font-weight: 700;
+    font-size: 32px;
+    color: #293264;
+    margin-bottom: 7px;
+}
+
+.start--description{
+    font-size: 16px;
+    color: #293264;
+    margin-bottom: 29px;
+}
+
+.start--button{
+    width: 193px;
+    height: 52px;
+    background: #4D5B9E;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.question--prompt{
+    font-weight: 700;
+    font-size: 16px;
+    color: #293264;
+}
+
+.question--choice{
+    /* background: #D6DBF5; Show user has selected */
+    background: #F5F7FB; /* Show user has not selected */
+    /* background: #94D7A2 highlight correct answer */
+    /* background: #F8BCBC highlight wrong answer */
+    border-radius: 8px;
+    margin: 12px;
+    font-family: 'Karla', sans-serif;
+    color: #293264;
+    cursor: pointer;
+}
+
+.confirm, .playAgain{
+    width: 120px;
+    height: 35px;
+    background: #4D5B9E;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+.play{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.scores{
+    font-weight: 700;
+    color: #293264;
+}
