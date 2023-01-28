@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Quizzical-trivia-app/static/css/main.9098a961.css",
+    "main.js": "/Quizzical-trivia-app/static/js/main.fa791897.js",
+    "static/media/Karla-VariableFont_wght.ttf": "/Quizzical-trivia-app/static/media/Karla-VariableFont_wght.e7cdc609f35daffcb788.ttf",
+    "index.html": "/Quizzical-trivia-app/index.html",
+    "main.9098a961.css.map": "/Quizzical-trivia-app/static/css/main.9098a961.css.map",
+    "main.fa791897.js.map": "/Quizzical-trivia-app/static/js/main.fa791897.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9098a961.css",
+    "static/js/main.fa791897.js"
+  ]
+}
